@@ -8,6 +8,7 @@ import { AppMenuComponent } from './app-menu/app-menu.component';
 import { DivisionComponent } from './division/division.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { AppFooterComponent } from './app-footer/app-footer.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { AppFooterComponent } from './app-footer/app-footer.component';
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     AppRoutingModule
   ],
   providers: [],
