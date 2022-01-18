@@ -9,6 +9,7 @@ import { DivisionComponent } from './division/division.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { AppFooterComponent } from './app-footer/app-footer.component';
 import { HttpClientModule } from '@angular/common/http';
+import { TambahdataComponent } from './tambahdata/tambahdata.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { HttpClientModule } from '@angular/common/http';
     AppMenuComponent,
     DivisionComponent,
     DashboardComponent,
-    AppFooterComponent
+    AppFooterComponent,
+    TambahdataComponent
   ],
   imports: [
     BrowserModule,

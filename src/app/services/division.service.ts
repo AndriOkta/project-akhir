@@ -2,8 +2,9 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { Division } from '../model/division.model';
+import { TambahdataComponent } from '../tambahdata/tambahdata.component';
 
-const baseUrl = 'http://spa-api.aqiladigital.com/api/divisions'
+const baseUrl = 'https://spa-api.aqiladigital.com/api/divisions'
 @Injectable({
   providedIn: 'root'
 })

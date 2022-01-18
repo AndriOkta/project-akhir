@@ -6,12 +6,14 @@
 
                 </div>
                 <div class="card-body">
+                    <button [routerLink]="['/tambahdata']" routerLinkActive="router-link-active"  class="btn-success">Tambah Data</button>
                     <table class="table table-head-fixed text-nowrap">
                         <thead>
                             <tr>
                                 <th>ID</th>
                                 <th>Name</th>
                                 <th>Description</th>
+                                <th>Action</th>
                             </tr>
                         </thead>
                         <tbody *ngFor="let currentDivision of divisions; let i = index">
@@ -19,6 +21,8 @@
                                 <td>{{ currentDivision._id }}</td>
                                 <td>{{ currentDivision.name }}</td>
                                 <td>{{ currentDivision.description }}</td>
+                                <td><button class="btn-primary">Edit</button> <button class="btn-danger">Hapus</button></td>
+                                <td></td>
                             </tr>
                         </tbody>
                     </table>
